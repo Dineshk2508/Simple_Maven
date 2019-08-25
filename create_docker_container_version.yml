@@ -3,10 +3,6 @@
 - hosts: web-servers
   become: true
   tasks:
-    - name: stop previous version docker
-      shell: docker stop webapp
-    - name: remove stopped container
-      shell: docker rm -f webapp
     - name: remove docker images
       shell: docker image rm -f dineshk2508/ci_cd_versioning_ad:latest
        
