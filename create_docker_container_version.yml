@@ -7,4 +7,4 @@
       shell: docker image rm -f dineshk2508/ci_cd_ansible_docker_hub_versioning:latest
        
     - name: create docker image
-      shell: docker run -d --name webapp -p 8090:8080 dineshk2508/ci_cd_ansible_docker_hub_versioning:latest
+      shell: docker run -d --name webapp -p 8093:8080 dineshk2508/ci_cd_ansible_docker_hub_versioning:latest
