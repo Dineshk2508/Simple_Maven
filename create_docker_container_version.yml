@@ -1,6 +1,6 @@
     
 ---
-- hosts: web-servers
+- hosts: docker-host
   become: true
   tasks:
     - name: remove docker images
