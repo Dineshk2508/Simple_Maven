@@ -10,4 +10,4 @@
       shell: docker image rm -f dineshk2508/webapp
        
     - name: create docker image
-      shell: docker run -d --name webapp -p 8090:8080 dineshk2508/webapp
+      shell: docker run -d --name webapp -p 8092:8080 dineshk2508/webapp
