@@ -3,3 +3,4 @@
 <h5>Thanks</h5>
 <p> Simple deploy in Ec2 </p>
 <p> Deploy using ansible </P>
+<p> Deploy using Docker </P>
